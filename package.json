@@ -1,0 +1,37 @@
+{
+  "name": "stock-briefing-cli",
+  "version": "1.0.1",
+  "description": "투자 성향 맞춤 일일 주식 브리핑 CLI - 기술적 지표 + 재무 건전성 + AI 시그널(Upstage Solar Pro 3)",
+  "main": "bin/stock-briefing.js",
+  "bin": {
+    "stock-briefing": "bin/stock-briefing.js"
+  },
+  "files": [
+    "bin/",
+    "scripts/"
+  ],
+  "scripts": {
+    "test": "node bin/stock-briefing.js --help"
+  },
+  "keywords": [
+    "stock",
+    "briefing",
+    "investment",
+    "korea",
+    "kospi",
+    "kosdaq",
+    "yfinance",
+    "upstage",
+    "solar",
+    "cli"
+  ],
+  "author": "lynn1833",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
